@@ -37,14 +37,12 @@
         class="input-text"
         type="number"
         name="card"
-        required
-        minlength="16"
         [(ngModel)]="creditCard"
       />
       <span class="text-annouce"
         >We will never share you payment details with anyone else</span
       >
-      <button [disabled]="form.invalid" type="submit" class="btn btn-success">
+      <button [disabled]="form.invalid" type="submit" class="btn btn-success" >
         Submit
       </button>
     </form>
